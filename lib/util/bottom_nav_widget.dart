@@ -55,12 +55,12 @@ class _BottomNavIconState extends State<BottomNavIcon> {
       children: [
         Icon(
           widget.icondata,
-          color: kGreyColor,
+          color: Colors.white.withOpacity(0.8),
           size: 32,
         ),
         if (widget.isActive)
           Container(
-            width: 10,
+            width: 15,
             height: 2,
             decoration: const BoxDecoration(
               shape: BoxShape.rectangle,

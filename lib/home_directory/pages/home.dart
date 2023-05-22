@@ -67,7 +67,7 @@ class _HomeState extends State<Home> {
                     height: size.height * 0.05,
                   ),
                   Container(
-                      height: size.height * 0.5,
+                      height: size.height * 0.7,
                       width: size.width,
                       child: RoomCard()
                       // ListView.separated(
